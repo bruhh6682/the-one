@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Card Gallery</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <div>
+        <p class="eyebrow">PNG Card Gallery</p>
+        <h1>Bundle-driven card showcase</h1>
+        <p class="subtitle">
+          Drop bundles of PNGs into <code>/cards</code> and update
+          <code>bundles.json</code> to control text and rarity per image.
+        </p>
+      </div>
+    </header>
+
+    <main>
+      <section class="controls" aria-label="Bundle filters">
+        <div>
+          <h2>Visible bundles</h2>
+          <p class="muted">Select one or more bundles to display.</p>
+        </div>
+        <div class="bundle-options" id="bundle-options"></div>
+      </section>
+
+      <section class="gallery" aria-live="polite">
+        <div class="gallery-grid" id="gallery-grid"></div>
+        <p class="empty-state" id="empty-state">
+          No cards available. Add PNGs and update <code>bundles.json</code>.
+        </p>
+      </section>
+    </main>
+
+    <footer>
+      <p>
+        Tip: add a new folder under <code>/cards</code> and list it in
+        <code>bundles.json</code> with custom labels and rarity values.
+      </p>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
