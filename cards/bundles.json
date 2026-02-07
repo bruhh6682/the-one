@@ -1,0 +1,36 @@
+{
+  "bundles": [
+    {
+      "id": "starter-pack",
+      "title": "Starter Pack",
+      "path": "cards/starter-pack",
+      "cards": [
+        {
+          "file": "blue-drake.png",
+          "title": "Blue Drake",
+          "text": "A fast flying companion with an icy trail.",
+          "rarity": 2
+        },
+        {
+          "file": "amber-golem.png",
+          "title": "Amber Golem",
+          "text": "Holds the line with glowing crystal armor.",
+          "rarity": 1
+        }
+      ]
+    },
+    {
+      "id": "event-drop",
+      "title": "Event Drop",
+      "path": "cards/event-drop",
+      "cards": [
+        {
+          "file": "aurora-sphinx.png",
+          "title": "Aurora Sphinx",
+          "text": "Only appears when the sky glows green.",
+          "rarity": 3
+        }
+      ]
+    }
+  ]
+}
